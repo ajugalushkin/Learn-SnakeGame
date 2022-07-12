@@ -40,9 +40,14 @@ namespace SnakeGame
                 Width = 16,
                 Height = 16,
                 Fill = brush
+
+
+
             };
 
             Canvas.SetLeft(ellipse, point.X);
+            Canvas.SetTop(ellipse, point.Y);
+
             Canvas.SetTop(ellipse, point.Y);
 
             return ellipse;
